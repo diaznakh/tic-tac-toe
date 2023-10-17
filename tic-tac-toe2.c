@@ -93,91 +93,30 @@ void process(){
     }
 }
 void winner(){
-            if (board_array[0][0]==board_array[0][1]&&board_array[0][1]==board_array[0][2])
+    for(int z=0;z<3;z++){
+            if ((board_array[z][0]==board_array[z][1]&&board_array[z][1]==board_array[z][2]&&board_array[z][0]==choiceplayer1)||
+                (board_array[0][z]==board_array[1][z]&&board_array[1][z]==board_array[2][z]&&board_array[0][z]==choiceplayer1))
             {
-                if (board_array[0][0]==choiceplayer1)
-                {
-                    printf("You win Player 1");
-                }
-                else
-                {
-                    printf("You win Player 2");
-                }
+               printf("Player 1 Wins!\n");
+               exit(0);
             }
-            else if (board_array[1][0]==board_array[1][1]&&board_array[1][1]==board_array[1][2])
+            if ((board_array[z][0]==board_array[z][1]&&board_array[z][1]==board_array[z][2]&&board_array[z][0]==choiceplayer2)||
+                (board_array[0][z]==board_array[1][z]&&board_array[1][z]==board_array[2][z]&&board_array[0][z]==choiceplayer2))
             {
-                if (board_array[1][0]==choiceplayer1)
-                {
-                    printf("You win Player 1");
-                }
-                else
-                {
-                    printf("You win Player 2");
-                }
+               printf("Player 2 Wins!\n");
+               exit(0);
             }
-            else if (board_array[2][0]==board_array[2][1]&&board_array[2][1]==board_array[2][2])
-            {
-                if (board_array[2][0]==choiceplayer1)
-                {
-                    printf("You win Player 1");
-                }
-                else
-                {
-                    printf("You win Player 2");
-                }
-            }
-            else if (board_array[0][0]==board_array[1][0]&&board_array[1][0]==board_array[2][0])
-            {
-                if (board_array[0][0]==choiceplayer1)
-                {
-                    printf("You win Player 1");
-                }
-                else
-                {
-                    printf("You win Player 2");
-                }
-            }
-            else if (board_array[0][1]==board_array[1][1]&&board_array[1][1]==board_array[2][1])
-            {
-                if (board_array[0][1]==choiceplayer1)
-                {
-                    printf("You win Player 1");
-                }
-                else
-                {
-                    printf("You win Player 2");
-                }
-            }
-            else if (board_array[0][2]==board_array[1][2]&&board_array[1][2]==board_array[2][2])
-            {
-                if (board_array[0][2]==choiceplayer1)
-                {
-                    printf("You win Player 1");
-                }
-                else
-                {
-                    printf("You win Player 2");
-                }
-            }
-            else if (board_array[0][0]==board_array[1][1]&&board_array[1][1]==board_array[2][2])
-            {
-                if (board_array[0][0]==choiceplayer1)
-                {
-                    printf("You win Player 1");
-                }
-                else
-                {
-                    printf("You win Player 2");
-                }
-            }else if (board_array[0][2]==board_array[1][1]&&board_array[1][1]==board_array[2][0])
-            {
-                if (board_array[0][2]==choiceplayer1)
-                {
-                    printf("You win Player 1");
-                }
-                else
-                {
-                    printf("You win Player 2");
-                }
-            }
+        }
+    if ((board_array[0][0]==board_array[1][1]&&board_array[1][1]==board_array[2][2]&&board_array[0][0]==choiceplayer1)||
+         (board_array[0][2]==board_array[1][1]&&board_array[1][1]==board_array[2][0]&&board_array[0][2]==choiceplayer1))
+    {
+        printf("Player 1 Wins!\n");
+        exit(0);
+    }
+    if ((board_array[0][0]==board_array[1][1]&&board_array[1][1]==board_array[2][2]&&board_array[0][0]==choiceplayer1)||
+         (board_array[0][2]==board_array[1][1]&&board_array[1][1]==board_array[2][0]&&board_array[0][2]==choiceplayer1))
+    {
+        printf("Player 1 Wins!\n");
+        exit(0);
+    }
 }
