@@ -98,12 +98,10 @@ void winner(){
                 if (board_array[0][0]==choiceplayer1)
                 {
                     printf("You win Player 1");
-                    main();
                 }
                 else
                 {
                     printf("You win Player 2");
-                    main();
                 }
             }
             else if (board_array[1][0]==board_array[1][1]&&board_array[1][1]==board_array[1][2])
@@ -111,12 +109,10 @@ void winner(){
                 if (board_array[1][0]==choiceplayer1)
                 {
                     printf("You win Player 1");
-                    main();
                 }
                 else
                 {
                     printf("You win Player 2");
-                    main();
                 }
             }
             else if (board_array[2][0]==board_array[2][1]&&board_array[2][1]==board_array[2][2])
@@ -124,12 +120,10 @@ void winner(){
                 if (board_array[2][0]==choiceplayer1)
                 {
                     printf("You win Player 1");
-                    main();
                 }
                 else
                 {
                     printf("You win Player 2");
-                    main();
                 }
             }
             else if (board_array[0][0]==board_array[1][0]&&board_array[1][0]==board_array[2][0])
@@ -137,12 +131,10 @@ void winner(){
                 if (board_array[0][0]==choiceplayer1)
                 {
                     printf("You win Player 1");
-                    main();
                 }
                 else
                 {
                     printf("You win Player 2");
-                    main();
                 }
             }
             else if (board_array[0][1]==board_array[1][1]&&board_array[1][1]==board_array[2][1])
@@ -150,12 +142,10 @@ void winner(){
                 if (board_array[0][1]==choiceplayer1)
                 {
                     printf("You win Player 1");
-                    main();
                 }
                 else
                 {
                     printf("You win Player 2");
-                    main();
                 }
             }
             else if (board_array[0][2]==board_array[1][2]&&board_array[1][2]==board_array[2][2])
@@ -163,12 +153,10 @@ void winner(){
                 if (board_array[0][2]==choiceplayer1)
                 {
                     printf("You win Player 1");
-                    main();
                 }
                 else
                 {
                     printf("You win Player 2");
-                    main();
                 }
             }
             else if (board_array[0][0]==board_array[1][1]&&board_array[1][1]==board_array[2][2])
@@ -176,24 +164,20 @@ void winner(){
                 if (board_array[0][0]==choiceplayer1)
                 {
                     printf("You win Player 1");
-                    main();
                 }
                 else
                 {
                     printf("You win Player 2");
-                    main();
                 }
             }else if (board_array[0][2]==board_array[1][1]&&board_array[1][1]==board_array[2][0])
             {
                 if (board_array[0][2]==choiceplayer1)
                 {
                     printf("You win Player 1");
-                    main();
                 }
                 else
                 {
                     printf("You win Player 2");
-                    main();
                 }
             }
 }
