@@ -90,10 +90,10 @@ void winner(){
                 printf("Player 1 Wins!\n");
                 exit(0);
     }
-            if ((board_array[0][0]==board_array[1][1]&&board_array[1][1]==board_array[2][2]&&board_array[0][0]==choiceplayer1)||
-         (board_array[0][2]==board_array[1][1]&&board_array[1][1]==board_array[2][0]&&board_array[0][2]==choiceplayer1))
+            if ((board_array[0][0]==board_array[1][1]&&board_array[1][1]==board_array[2][2]&&board_array[0][0]==choiceplayer2)||
+         (board_array[0][2]==board_array[1][1]&&board_array[1][1]==board_array[2][0]&&board_array[0][2]==choiceplayer2))
     {
-                printf("Player 1 Wins!\n");
+                printf("Player 2 Wins!\n");
                 exit(0);
     }
 }
