@@ -50,8 +50,8 @@ void process(){
     {
         if (c==9)
         {
-            printf("GAME ENDS\n");
-        }
+            printf("GAME ENDS NO WINNER\n");
+            exit(0);}
         else
         {
             printf("Enter slot player 2: ");
