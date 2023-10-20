@@ -25,7 +25,7 @@ int main(){
     return 0;
 }
 void board(){
-    printf("|00|01|02|\n|10|11|12|\n|20|21|22|\n");}
+    printf("|0 0|0 1|0 2|\n|1 0|1 1|1 2|\n|2 0|2 1|2 2|\n");}
 void boardf(){
     int i,j;
     for(i=0;i<3;i++){
@@ -96,4 +96,4 @@ void winner(){
                 printf("Player 2 Wins!\n");
                 exit(0);
     }
-}
+}//final¸
