@@ -96,4 +96,4 @@ void winner(){
                 printf("Player 2 Wins!\n");
                 exit(0);
     }
-}
+}//updated
