@@ -5,7 +5,7 @@ const char H='H';
 char board_array[3][3]={
                         {H,H,H},
                         {H,H,H},
-                        {H,H,H}
+                        {H,H,H} 
 };
 char choiceplayer1,choiceplayer2,choice1,option;
 int main(){
@@ -96,4 +96,4 @@ void winner(){
                 printf("Player 2 Wins!\n");
                 exit(0);
     }
-}//updated
+}
