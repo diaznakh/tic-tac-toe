@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void board(),winnercondition(),winner(),boardf(),process();
+void board(),winner(),boardf(),process();
 const char H='H';
 char board_array[3][3]={
                         {H,H,H},
@@ -13,8 +13,8 @@ int main(){
     scanf(" %c",&choice1);
     if (choice1!='o'&&choice1!='x')
     {printf("Invalid input\nEnter o or x");
-        main();}
-    
+        main();
+    }
     if (choice1=='x')
     {choiceplayer1='x';
         choiceplayer2='o';}
