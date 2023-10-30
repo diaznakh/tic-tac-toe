@@ -63,7 +63,7 @@ void process(){
             boardf();
             printf("\n");
             c++;
-            if(c>=6)
+            if(c>=5)
             {
                 winner();
             }
